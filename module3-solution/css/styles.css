@@ -1,0 +1,122 @@
+body {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    /* font-size: 1.5em; */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    padding: 0;
+}
+
+#nav-list {
+    background: #fff;
+    margin: 0;
+    border-top: 2px solid #000;
+}
+
+#nav-list a {
+    color: #000;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #9e9a9ade;
+}
+
+#nav-list hr.nav-list-hr {
+    border: 1px solid #000;
+    background-color: #000;
+    margin: 0;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+
+.navbar-header button.navbar-toggle:focus,
+.navbar-header .icon-bar:focus {
+    border: 2px solid #fff;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+header>h1 {
+    /* font-size: 1.5em; */
+    font-weight: bold;
+}
+
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+#main-content div.row section>h3 {
+    margin-top: 2px;
+    /* font-size: 1.2em; */
+    font-weight: bold;
+}
+
+#main-content div.row section {
+    margin: 30px 10px 30px;
+    padding: 0 10px 0;
+    background-color: gray;
+}
+
+#main-content div.row section p>a {
+    text-decoration: underline;
+}
+
+
+/* END HOME PAGE */
+
+@media (min-width: 768px) {
+    #header-nav {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Header */
+    header h1#Page-Heading {
+        margin-bottom: 0;
+    }
+    /* End Header */
+    /* Home Page */
+    div#main-content div.row {
+        margin: 0 20px 0;
+    }
+    #main-content div.row section {
+        padding-top: 10px;
+    }
+    /* End Home Page */
+}
