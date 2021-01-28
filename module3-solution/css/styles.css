@@ -19,7 +19,7 @@ body {
     color: #000;
     /* font-size: 1.5em; */
     font-weight: bold;
-    margin-top: 0;
+    margin-top: -10px;
     margin-bottom: 0;
     padding-left: 20px;
     line-height: .75;
@@ -42,6 +42,7 @@ body {
 
 #nav-list a {
     color: #000;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -81,12 +82,13 @@ header>h1 {
 /* HOME PAGE */
 
 #main-content div.row section>h3 {
-    margin-top: 2px;
+    margin-top: 5px;
     /* font-size: 1.2em; */
     font-weight: bold;
 }
 
 #main-content div.row section {
+    /* width: 100%; */
     margin: 30px 10px 30px;
     padding: 0 10px 0;
     background-color: gray;
@@ -107,6 +109,10 @@ header>h1 {
 
 @media (max-width: 767px) {
     /* Header */
+    .navbar-brand h1 {
+        /* Restaurant name */
+        margin-top: 0;
+    }
     header h1#Page-Heading {
         margin-bottom: 0;
     }
