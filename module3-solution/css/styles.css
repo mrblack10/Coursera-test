@@ -96,6 +96,11 @@ header>h1 {
 
 #main-content div.row section p>a {
     text-decoration: underline;
+    color: rgba(47, 47, 241, 0.795);
+}
+
+#main-content div.row section p>a:hover {
+    color: red;
 }
 
 
@@ -113,7 +118,7 @@ header>h1 {
         /* Restaurant name */
         margin-top: 0;
     }
-    header h1#Page-Heading {
+    header h1#Our-Menu {
         margin-bottom: 0;
     }
     /* End Header */
